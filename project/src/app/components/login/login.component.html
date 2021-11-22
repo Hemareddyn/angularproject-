@@ -1,1 +1,49 @@
-<p>login works!</p>
+<body>
+    <h1>Login Form</h1>
+    <div class="container">
+      <div className="form_social_media">
+        <div className="form_social_btn">
+          <span><i className="fab fa-facebook"></i></span>
+          <input type="button" value="Continue With Facebook" />
+        </div>
+        <br />
+        <div className="form_social_btn">
+          <span><i className="fab fa-google"></i></span>
+          <input type="button" value="Continue With Google" />
+        </div>
+        <br />
+        <div className="form_social_btn">
+          <span><i className="fab fa-apple"></i></span>
+          <input type="button" value="Continue With Apple" />
+        </div>
+  
+        <br />
+      </div>
+  
+      <!-- <label>Username : </label>   
+           <input type="text" placeholder="Enter Username" name="username" required>  -->
+      <div>
+        <label>Email: </label>
+        <input type="text" placeholder="Enter Email" name="email" required />
+        <label>Password : </label>
+        <input
+          type="password"
+          placeholder="Enter Password"
+          name="password"
+          required
+        />
+        <br />
+        <a routerLink="/forgotpassword">Forgot password? </a>
+        <button routerLink="/login" routerLinkActive="active" type="submit">
+          Login
+        </button>
+        <br />
+        <!-- <input type="checkbox" checked="checked" /> Remember me -->
+        <!-- <button type="button" class="cancelbtn">Cancel</button> -->
+        <!-- Forgot <a href="#"> password? </a> -->
+        <!-- Don't have an account  <a href=".">Signup</a> -->
+      </div>
+    </div>
+    <p>Don't have an account <a routerLink="/signup" >Signup</a></p>
+  </body>
+  
