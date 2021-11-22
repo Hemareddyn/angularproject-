@@ -10,13 +10,15 @@ import { SignupComponent } from './components/signup/signup.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { ForgotpasswordComponent } from './components/forgotpassword/forgotpassword.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     SignupComponent,
     NavbarComponent,
-    ForgotpasswordComponent
+    ForgotpasswordComponent,
+    
   ],
   imports: [
     BrowserModule,
