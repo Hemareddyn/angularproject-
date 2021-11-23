@@ -1,6 +1,13 @@
 
 <div class="topnav">
-  <a href="#"><mat-icon aria-label="Side nav toggle icon">menu</mat-icon></a>
+  <div class="dropdown">
+    <button class="dropbtn">Dropdown</button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div>
   <a
     href="https://stackoverflow.com"
     class="-logo js-gps-track"
@@ -8,9 +15,9 @@
   >
     <span class="-img _glyph">Stack Overflow</span>
   </a>
-  <a class="#Products" href="#Products">Products</a>
-  <a href="#about">About</a>
-  <a href="#For teams">For teams</a>
+  <a class="Questions" routerLink="/questions">Questions</a>
+  <a router="#Tags">Tags</a>
+  <a href="#Users">Users</a>
   <div class="search-container">
     <form action="/action_page.php">
       <input type="text" placeholder="Search.." name="search" />

@@ -13,7 +13,6 @@ import { ForgotpasswordComponent } from './components/forgotpassword/forgotpassw
 import { UserpostComponent } from './components/userpost/userpost.component';
 import { SidenavbarComponent } from './components/sidenavbar/sidenavbar.component';
 
-
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
 import { MatInputModule } from '@angular/material/input';
@@ -21,6 +20,7 @@ import { MatIconModule } from '@angular/material/icon';
 // import { SidenavbarComponent } from './components/sidenavbar/sidenavbar.component';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import {MatListModule} from '@angular/material/list';
+import { TagsComponent } from './components/tags/tags.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +30,8 @@ import {MatListModule} from '@angular/material/list';
     NavbarComponent,
     ForgotpasswordComponent,
     UserpostComponent,
-    SidenavbarComponent
+    SidenavbarComponent,
+    TagsComponent
   ],
   imports: [
     BrowserModule,
