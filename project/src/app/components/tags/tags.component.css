@@ -1,0 +1,21 @@
+ .search-container button {
+    float: right;
+    padding: 10px;
+    margin-top: 15px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    
+  }
+  .topnav .search-container button:hover {
+    background: #ccc;
+   
+  }
+   .components{
+       width:15%;
+      border-bottom: 35px;
+      content: 50px;
+   }
+ 
