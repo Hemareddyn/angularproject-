@@ -1,0 +1,44 @@
+<div class="container">
+    <div class="row">
+      <div class="col-md-12 col-sm-6">
+        <!-- Dialog-close -->
+
+        <!-- <div *ngIf="close" class="close-class">
+          <button style="float: right; background-color:blue;color:white;" mat-mini-fab mat-dialog-close>
+            <mat-icon>close</mat-icon>
+          </button>
+        </div> -->
+        <form #ref="ngForm" (ngSubmit)="onSubmit(ref.value)">
+
+          <div class="form-group">
+            <label for="x1">Question :</label><br>
+            <input type="text" name="title" class="form-control title" placeholder="Enter your question" ngModel>
+          </div><br>
+  
+          <div class="form-group green-border-focus">
+            <label for=""> Description :</label> <br>
+            <textarea name="description" class="form-control desc" id="exampleFormControlTextarea5" rows="5"
+              placeholder="write something here..." ngModel></textarea>
+          </div>
+  
+          <!-- <label>Please add relevant tags for your post</label>
+                <div class="form-check" *ngFor='let tag of tags'>
+                      <label class="form-check-label" [for]="tag.id">
+                        <input type="checkbox" [name]="tag.name" [id]="tag.id" class="form-check-input" [value]="tag.value" ngModel>{{tag.displayName}}
+                      </label>
+                </div> -->
+  
+        
+          <div class="text-center form-group">
+            <button class="btn btn-success sub-btn">SUBMIT</button>
+          </div>
+        </form>
+  
+  
+  
+  
+  
+      </div>
+    </div>
+  
+  </div>
