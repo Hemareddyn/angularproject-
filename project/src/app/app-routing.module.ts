@@ -6,6 +6,8 @@ import {ForgotpasswordComponent} from './components/forgotpassword/forgotpasswor
 import { UserpostComponent} from './components/userpost/userpost.component';
 import { SidenavbarComponent} from './components/sidenavbar/sidenavbar.component';
 import {TagsComponent} from './components/tags/tags.component';
+import {UsersComponent} from './components/users/users.component';
+
 
 
 const routes: Routes = [
@@ -15,7 +17,8 @@ const routes: Routes = [
   {path: 'forgotpassword', component : ForgotpasswordComponent},
   {path: 'questions', component : UserpostComponent},
   {path: 'sidenavbar', component : SidenavbarComponent},
-  {path: 'tags' ,component : TagsComponent}
+  {path: 'tags' ,component : TagsComponent},
+  {path: 'users' ,component :UsersComponent}
 ];
 
 @NgModule({
