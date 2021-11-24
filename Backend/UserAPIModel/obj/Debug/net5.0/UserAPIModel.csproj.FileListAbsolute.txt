@@ -1,0 +1,12 @@
+C:\Users\hbommireddy\source\repos\Stackoverflow-API\UserAPIModel\bin\Debug\net5.0\UserAPIModel.deps.json
+C:\Users\hbommireddy\source\repos\Stackoverflow-API\UserAPIModel\bin\Debug\net5.0\UserAPIModel.dll
+C:\Users\hbommireddy\source\repos\Stackoverflow-API\UserAPIModel\bin\Debug\net5.0\ref\UserAPIModel.dll
+C:\Users\hbommireddy\source\repos\Stackoverflow-API\UserAPIModel\bin\Debug\net5.0\UserAPIModel.pdb
+C:\Users\hbommireddy\source\repos\Stackoverflow-API\UserAPIModel\obj\Debug\net5.0\UserAPIModel.csproj.AssemblyReference.cache
+C:\Users\hbommireddy\source\repos\Stackoverflow-API\UserAPIModel\obj\Debug\net5.0\UserAPIModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hbommireddy\source\repos\Stackoverflow-API\UserAPIModel\obj\Debug\net5.0\UserAPIModel.AssemblyInfoInputs.cache
+C:\Users\hbommireddy\source\repos\Stackoverflow-API\UserAPIModel\obj\Debug\net5.0\UserAPIModel.AssemblyInfo.cs
+C:\Users\hbommireddy\source\repos\Stackoverflow-API\UserAPIModel\obj\Debug\net5.0\UserAPIModel.csproj.CoreCompileInputs.cache
+C:\Users\hbommireddy\source\repos\Stackoverflow-API\UserAPIModel\obj\Debug\net5.0\UserAPIModel.dll
+C:\Users\hbommireddy\source\repos\Stackoverflow-API\UserAPIModel\obj\Debug\net5.0\ref\UserAPIModel.dll
+C:\Users\hbommireddy\source\repos\Stackoverflow-API\UserAPIModel\obj\Debug\net5.0\UserAPIModel.pdb
