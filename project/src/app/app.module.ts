@@ -21,6 +21,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import {MatListModule} from '@angular/material/list';
 import { TagsComponent } from './components/tags/tags.component';
+import { UsersComponent } from './components/users/users.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { TagsComponent } from './components/tags/tags.component';
     ForgotpasswordComponent,
     UserpostComponent,
     SidenavbarComponent,
-    TagsComponent
+    TagsComponent,
+    UsersComponent
   ],
   imports: [
     BrowserModule,
