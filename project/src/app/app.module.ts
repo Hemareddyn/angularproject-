@@ -23,6 +23,9 @@ import {MatListModule} from '@angular/material/list';
 import { TagsComponent } from './components/tags/tags.component';
 import { UsersComponent } from './components/users/users.component';
 import { HomepageComponent } from './components/homepage/homepage.component';
+import { HttpClientModule } from "@angular/common/http";
+import { ApiService } from './shared/api.service';
+
 
 @NgModule({
   declarations: [
@@ -42,6 +45,10 @@ import { HomepageComponent } from './components/homepage/homepage.component';
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule,
 
     MatButtonModule,
     MatCardModule,
@@ -54,7 +61,7 @@ import { HomepageComponent } from './components/homepage/homepage.component';
     
 
   ],
-  providers: [],
+  providers: [ApiService],
   schemas : [ CUSTOM_ELEMENTS_SCHEMA ],
   bootstrap: [AppComponent]
 })

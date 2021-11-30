@@ -7,24 +7,27 @@ import { HttpClient } from '@angular/common/http';
 @Component({
   selector: 'app-signup',
   templateUrl: './signup.component.html',
-  styleUrls: ['./signup.component.css']
+  styleUrls: ['./signup.component.css'],
 })
 export class SignupComponent implements OnInit {
   public data = {
-  username: "",
-  email: "",
-  password: "",
-  confirmPassword: "",
-}
+    username: '',
+    email: '',
+    password: '',
+    confirmPassword: '',
+  };
   valid = {
     username: true,
     email: true,
     password: true,
-  }
+  };
 
   public registerObj = new UserModel();
-  constructor(private http: HttpClient, private router: Router, private api: ApiService) { }
-
+  constructor(
+    private http: HttpClient,
+    private router: Router,
+    private api: ApiService
+  ) {}
 
   ngOnInit(): void {}
 
@@ -62,18 +65,16 @@ export class SignupComponent implements OnInit {
     this.validate(type);
   }
 
-Register() {
-  const formData = new FormData();
-  formData.append("UserName", this.data.username)
-  formData.append("Emailid", this.data.email)
-  formData.append("CreatePassword", this.data.password)
-  formData.append("Name", this.data.username)
- 
+  Register() {
+    const formData = new FormData();
+    formData.append('UserName', this.data.username);
+    formData.append('Emailid', this.data.email);
+    formData.append('CreatePassword', this.data.password);
+    formData.append('Name', this.data.username);
 
-  console.log(this.registerObj)
-  this.api.Register(formData)
-    .subscribe(res => {
-      alert("success");
-    })
-}
+    console.log(this.registerObj);
+    this.api.Register(formData).subscribe((res) => {
+      alert('success');
+    });
+  }
 }
