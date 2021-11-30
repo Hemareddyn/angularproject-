@@ -1,0 +1,12 @@
+C:\Users\hbommireddy\source\repos\Stackoverflow-API\ConnectionDataBase\bin\Debug\net5.0\ConnectionDataBase.deps.json
+C:\Users\hbommireddy\source\repos\Stackoverflow-API\ConnectionDataBase\bin\Debug\net5.0\ConnectionDataBase.dll
+C:\Users\hbommireddy\source\repos\Stackoverflow-API\ConnectionDataBase\bin\Debug\net5.0\ref\ConnectionDataBase.dll
+C:\Users\hbommireddy\source\repos\Stackoverflow-API\ConnectionDataBase\bin\Debug\net5.0\ConnectionDataBase.pdb
+C:\Users\hbommireddy\source\repos\Stackoverflow-API\ConnectionDataBase\obj\Debug\net5.0\ConnectionDataBase.csproj.AssemblyReference.cache
+C:\Users\hbommireddy\source\repos\Stackoverflow-API\ConnectionDataBase\obj\Debug\net5.0\ConnectionDataBase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hbommireddy\source\repos\Stackoverflow-API\ConnectionDataBase\obj\Debug\net5.0\ConnectionDataBase.AssemblyInfoInputs.cache
+C:\Users\hbommireddy\source\repos\Stackoverflow-API\ConnectionDataBase\obj\Debug\net5.0\ConnectionDataBase.AssemblyInfo.cs
+C:\Users\hbommireddy\source\repos\Stackoverflow-API\ConnectionDataBase\obj\Debug\net5.0\ConnectionDataBase.csproj.CoreCompileInputs.cache
+C:\Users\hbommireddy\source\repos\Stackoverflow-API\ConnectionDataBase\obj\Debug\net5.0\ConnectionDataBase.dll
+C:\Users\hbommireddy\source\repos\Stackoverflow-API\ConnectionDataBase\obj\Debug\net5.0\ref\ConnectionDataBase.dll
+C:\Users\hbommireddy\source\repos\Stackoverflow-API\ConnectionDataBase\obj\Debug\net5.0\ConnectionDataBase.pdb

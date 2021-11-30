@@ -1,0 +1,16 @@
+C:\Users\hbommireddy\source\repos\Stackoverflow-API\MethodsforAPI\bin\Debug\net5.0\MethodsforAPI.deps.json
+C:\Users\hbommireddy\source\repos\Stackoverflow-API\MethodsforAPI\bin\Debug\net5.0\MethodsforAPI.dll
+C:\Users\hbommireddy\source\repos\Stackoverflow-API\MethodsforAPI\bin\Debug\net5.0\ref\MethodsforAPI.dll
+C:\Users\hbommireddy\source\repos\Stackoverflow-API\MethodsforAPI\bin\Debug\net5.0\MethodsforAPI.pdb
+C:\Users\hbommireddy\source\repos\Stackoverflow-API\MethodsforAPI\bin\Debug\net5.0\ConnectionDataBase.dll
+C:\Users\hbommireddy\source\repos\Stackoverflow-API\MethodsforAPI\bin\Debug\net5.0\UserAPIModel.dll
+C:\Users\hbommireddy\source\repos\Stackoverflow-API\MethodsforAPI\bin\Debug\net5.0\ConnectionDataBase.pdb
+C:\Users\hbommireddy\source\repos\Stackoverflow-API\MethodsforAPI\bin\Debug\net5.0\UserAPIModel.pdb
+C:\Users\hbommireddy\source\repos\Stackoverflow-API\MethodsforAPI\obj\Debug\net5.0\MethodsforAPI.csproj.AssemblyReference.cache
+C:\Users\hbommireddy\source\repos\Stackoverflow-API\MethodsforAPI\obj\Debug\net5.0\MethodsforAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hbommireddy\source\repos\Stackoverflow-API\MethodsforAPI\obj\Debug\net5.0\MethodsforAPI.AssemblyInfoInputs.cache
+C:\Users\hbommireddy\source\repos\Stackoverflow-API\MethodsforAPI\obj\Debug\net5.0\MethodsforAPI.AssemblyInfo.cs
+C:\Users\hbommireddy\source\repos\Stackoverflow-API\MethodsforAPI\obj\Debug\net5.0\MethodsforAPI.csproj.CoreCompileInputs.cache
+C:\Users\hbommireddy\source\repos\Stackoverflow-API\MethodsforAPI\obj\Debug\net5.0\MethodsforAPI.dll
+C:\Users\hbommireddy\source\repos\Stackoverflow-API\MethodsforAPI\obj\Debug\net5.0\ref\MethodsforAPI.dll
+C:\Users\hbommireddy\source\repos\Stackoverflow-API\MethodsforAPI\obj\Debug\net5.0\MethodsforAPI.pdb
