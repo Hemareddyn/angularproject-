@@ -1,4 +1,4 @@
-
+<!-- description:home,questions,tags,users -->
 <div class="topnav">
   <!-- <div class="dropdown">
     <button class="dropbtn">Dropdown</button>
@@ -13,20 +13,28 @@
     class="-logo js-gps-track"
     data-gps-track="top_nav.click({is_current:true, location:1, destination:8})"
   >
-    <span class="-img _glyph">Stack Overflow</span>
+    <span class="-img _glyph">Home</span>
   </a>
   <a class="Questions" routerLink="/questions">Questions</a>
   <a router="#Tags" routerLink="/tags" >Tags</a>
   <a href="#Users" routerLink="/users" >Users</a>
   <div class="search-container">
     <form action="/action_page.php">
-      <input type="text" placeholder="Search.." name="search" />
+      <!-- <input type="text" placeholder="Search.." name="search" /> -->
+      
       <button routerLink="/signup" type="submit">Signup</button>
       <!-- <input routerLink ="/login" routerLinkActive="active" type="button" value="Login"> -->
       <button routerLink="/login" routerLinkActive="active" type="submit">
         Login
       </button>
+      <form class="form-inline my-2  my-lg-0">
+        <input class="form-control mr-sm-2 " type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success   my-sm-2" type="submit">Search</button>
+      </form>
+
+
     </form>
+    
   </div>
 </div>
 

@@ -1,4 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { ApiService } from '../../shared/api.service';
+import { UserModel } from '../../shared/model/user.model';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-signup',
@@ -6,17 +10,21 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./signup.component.css']
 })
 export class SignupComponent implements OnInit {
-  username = '';
-  email = '';
-  password = '';
-  confirmPassword = '';
+  public data = {
+  username: "",
+  email: "",
+  password: "",
+  confirmPassword: "",
+}
   valid = {
     username: true,
     email: true,
     password: true,
-  };
+  }
 
-  constructor() { }
+  public registerObj = new UserModel();
+  constructor(private http: HttpClient, private router: Router, private api: ApiService) { }
+
 
   ngOnInit(): void {}
 
@@ -25,15 +33,15 @@ export class SignupComponent implements OnInit {
     const emailPattern = /\S+@\S+\.\S+/;
 
     if (type === 'username') {
-      if (this.username.length < 5) {
+      if (this.data.username.length < 5) {
         this.valid.username = false;
       } else {
-        this.valid.username = usernamePattern.test(this.username);
+        this.valid.username = usernamePattern.test(this.data.username);
       }
     } else if (type === 'email') {
-      this.valid.email = emailPattern.test(this.email);
+      this.valid.email = emailPattern.test(this.data.email);
     } else if (type === ('confirmPassword' || 'password')) {
-      if (this.password !== this.confirmPassword) {
+      if (this.data.password !== this.data.confirmPassword) {
         this.valid.password = false;
       } else {
         this.valid.password = true;
@@ -43,14 +51,29 @@ export class SignupComponent implements OnInit {
 
   onKey(event: any, type: string) {
     if (type === 'username') {
-      this.username = event.target.value;
+      this.data.username = event.target.value;
     } else if (type === 'email') {
-      this.email = event.target.value;
+      this.data.email = event.target.value;
     } else if (type === 'password') {
-      this.password = event.target.value;
+      this.data.password = event.target.value;
     } else if (type === 'confirmPassword') {
-      this.confirmPassword = event.target.value;
+      this.data.confirmPassword = event.target.value;
     }
     this.validate(type);
   }
+
+Register() {
+  const formData = new FormData();
+  formData.append("UserName", this.data.username)
+  formData.append("Emailid", this.data.email)
+  formData.append("CreatePassword", this.data.password)
+  formData.append("Name", this.data.username)
+ 
+
+  console.log(this.registerObj)
+  this.api.Register(formData)
+    .subscribe(res => {
+      alert("success");
+    })
+}
 }
