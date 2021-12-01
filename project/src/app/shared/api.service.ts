@@ -17,9 +17,16 @@ export class ApiService{
     //return this._http.post<any>(this.loginAPIUrl+"signup",empObj)
     return this._http.post<any>(this.APIUrl,empObj)
   }
-//   Login(empObj:any){
-//     return this._http.get<any>(this.APIUrl,empObj)
-//   }
+  Login(empObj:any){
+    console.log("empobj.....",empObj);
+    return this._http.get<any>(this.APIUrl+'/Login',empObj)
+  }
+  ForgotPassword(empObj:any){
+    console.log("empobj.....",empObj);
+    return this._http.get<any>(this.APIUrl+'/ForgotPassword',empObj)
+  }
+
+
 //   Booking(empObj : any){
 //     console.log("empobj.....",empObj); 
 //     return this._http.post<any>(this.APIUrl + '/TicketBooking',empObj)

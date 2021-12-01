@@ -26,11 +26,7 @@ export class SignupComponent implements OnInit {
   constructor(
     private http: HttpClient,
     private router: Router,
-<<<<<<< HEAD
     private api: ApiService
-=======
-    private api: ApiService,
->>>>>>> 544b4bd65583c329c8335577737c56d877a4fc10
   ) {}
 
   ngOnInit(): void {}
@@ -81,8 +77,4 @@ export class SignupComponent implements OnInit {
       alert('success');
     });
   }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 544b4bd65583c329c8335577737c56d877a4fc10

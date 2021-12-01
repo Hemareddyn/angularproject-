@@ -9,7 +9,7 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './components/login/login.component';
 import { SignupComponent } from './components/signup/signup.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
-import { ForgotpasswordComponent } from './components/forgotpassword/forgotpassword.component';
+import { ForgotPasswordComponent } from './components/forgotpassword/forgotpassword.component';
 import { UserpostComponent } from './components/userpost/userpost.component';
 // import { SidenavbarComponent } from './components/sidenavbar/sidenavbar.component';
 
@@ -33,7 +33,7 @@ import { ApiService } from './shared/api.service';
     LoginComponent,
     SignupComponent,
     NavbarComponent,
-    ForgotpasswordComponent,
+    ForgotPasswordComponent,
     UserpostComponent,
     // SidenavbarComponent,
     TagsComponent,
